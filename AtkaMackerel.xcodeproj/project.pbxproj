@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C616AF4255BF80000CB092B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C616AF3255BF80000CB092B /* AppDelegate.swift */; };
+		6C616AF6255BF80000CB092B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C616AF5255BF80000CB092B /* SceneDelegate.swift */; };
+		6C616AF8255BF80000CB092B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C616AF7255BF80000CB092B /* ViewController.swift */; };
+		6C616AFB255BF80000CB092B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C616AF9255BF80000CB092B /* Main.storyboard */; };
+		6C616AFD255BF80100CB092B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C616AFC255BF80100CB092B /* Assets.xcassets */; };
+		6C616B00255BF80100CB092B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C616AFE255BF80100CB092B /* LaunchScreen.storyboard */; };
+		6C616B0B255BF80200CB092B /* AtkaMackerelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C616B0A255BF80200CB092B /* AtkaMackerelTests.swift */; };
+		6C616B16255BF80200CB092B /* AtkaMackerelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C616B15255BF80200CB092B /* AtkaMackerelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C616B07255BF80200CB092B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C616AE8255BF7FF00CB092B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C616AEF255BF7FF00CB092B;
+			remoteInfo = AtkaMackerel;
+		};
+		6C616B12255BF80200CB092B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C616AE8255BF7FF00CB092B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C616AEF255BF7FF00CB092B;
+			remoteInfo = AtkaMackerel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C616AF0255BF80000CB092B /* AtkaMackerel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtkaMackerel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C616AF3255BF80000CB092B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C616AF5255BF80000CB092B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C616AF7255BF80000CB092B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C616AFA255BF80000CB092B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C616AFC255BF80100CB092B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C616AFF255BF80100CB092B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C616B01255BF80100CB092B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C616B06255BF80200CB092B /* AtkaMackerelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtkaMackerelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C616B0A255BF80200CB092B /* AtkaMackerelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtkaMackerelTests.swift; sourceTree = "<group>"; };
+		6C616B0C255BF80200CB092B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C616B11255BF80200CB092B /* AtkaMackerelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtkaMackerelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C616B15255BF80200CB092B /* AtkaMackerelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtkaMackerelUITests.swift; sourceTree = "<group>"; };
+		6C616B17255BF80200CB092B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C616AED255BF7FF00CB092B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C616B03255BF80200CB092B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C616B0E255BF80200CB092B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C616AE7255BF7FF00CB092B = {
+			isa = PBXGroup;
+			children = (
+				6C616AF2255BF80000CB092B /* AtkaMackerel */,
+				6C616B09255BF80200CB092B /* AtkaMackerelTests */,
+				6C616B14255BF80200CB092B /* AtkaMackerelUITests */,
+				6C616AF1255BF80000CB092B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C616AF1255BF80000CB092B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C616AF0255BF80000CB092B /* AtkaMackerel.app */,
+				6C616B06255BF80200CB092B /* AtkaMackerelTests.xctest */,
+				6C616B11255BF80200CB092B /* AtkaMackerelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C616AF2255BF80000CB092B /* AtkaMackerel */ = {
+			isa = PBXGroup;
+			children = (
+				6C616AF3255BF80000CB092B /* AppDelegate.swift */,
+				6C616AF5255BF80000CB092B /* SceneDelegate.swift */,
+				6C616AF7255BF80000CB092B /* ViewController.swift */,
+				6C616AF9255BF80000CB092B /* Main.storyboard */,
+				6C616AFC255BF80100CB092B /* Assets.xcassets */,
+				6C616AFE255BF80100CB092B /* LaunchScreen.storyboard */,
+				6C616B01255BF80100CB092B /* Info.plist */,
+			);
+			path = AtkaMackerel;
+			sourceTree = "<group>";
+		};
+		6C616B09255BF80200CB092B /* AtkaMackerelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C616B0A255BF80200CB092B /* AtkaMackerelTests.swift */,
+				6C616B0C255BF80200CB092B /* Info.plist */,
+			);
+			path = AtkaMackerelTests;
+			sourceTree = "<group>";
+		};
+		6C616B14255BF80200CB092B /* AtkaMackerelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C616B15255BF80200CB092B /* AtkaMackerelUITests.swift */,
+				6C616B17255BF80200CB092B /* Info.plist */,
+			);
+			path = AtkaMackerelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C616AEF255BF7FF00CB092B /* AtkaMackerel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C616B1A255BF80200CB092B /* Build configuration list for PBXNativeTarget "AtkaMackerel" */;
+			buildPhases = (
+				6C616AEC255BF7FF00CB092B /* Sources */,
+				6C616AED255BF7FF00CB092B /* Frameworks */,
+				6C616AEE255BF7FF00CB092B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtkaMackerel;
+			productName = AtkaMackerel;
+			productReference = 6C616AF0255BF80000CB092B /* AtkaMackerel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C616B05255BF80200CB092B /* AtkaMackerelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C616B1D255BF80200CB092B /* Build configuration list for PBXNativeTarget "AtkaMackerelTests" */;
+			buildPhases = (
+				6C616B02255BF80200CB092B /* Sources */,
+				6C616B03255BF80200CB092B /* Frameworks */,
+				6C616B04255BF80200CB092B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C616B08255BF80200CB092B /* PBXTargetDependency */,
+			);
+			name = AtkaMackerelTests;
+			productName = AtkaMackerelTests;
+			productReference = 6C616B06255BF80200CB092B /* AtkaMackerelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C616B10255BF80200CB092B /* AtkaMackerelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C616B20255BF80200CB092B /* Build configuration list for PBXNativeTarget "AtkaMackerelUITests" */;
+			buildPhases = (
+				6C616B0D255BF80200CB092B /* Sources */,
+				6C616B0E255BF80200CB092B /* Frameworks */,
+				6C616B0F255BF80200CB092B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C616B13255BF80200CB092B /* PBXTargetDependency */,
+			);
+			name = AtkaMackerelUITests;
+			productName = AtkaMackerelUITests;
+			productReference = 6C616B11255BF80200CB092B /* AtkaMackerelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C616AE8255BF7FF00CB092B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					6C616AEF255BF7FF00CB092B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					6C616B05255BF80200CB092B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 6C616AEF255BF7FF00CB092B;
+					};
+					6C616B10255BF80200CB092B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 6C616AEF255BF7FF00CB092B;
+					};
+				};
+			};
+			buildConfigurationList = 6C616AEB255BF7FF00CB092B /* Build configuration list for PBXProject "AtkaMackerel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C616AE7255BF7FF00CB092B;
+			productRefGroup = 6C616AF1255BF80000CB092B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C616AEF255BF7FF00CB092B /* AtkaMackerel */,
+				6C616B05255BF80200CB092B /* AtkaMackerelTests */,
+				6C616B10255BF80200CB092B /* AtkaMackerelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C616AEE255BF7FF00CB092B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C616B00255BF80100CB092B /* LaunchScreen.storyboard in Resources */,
+				6C616AFD255BF80100CB092B /* Assets.xcassets in Resources */,
+				6C616AFB255BF80000CB092B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C616B04255BF80200CB092B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C616B0F255BF80200CB092B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C616AEC255BF7FF00CB092B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C616AF8255BF80000CB092B /* ViewController.swift in Sources */,
+				6C616AF4255BF80000CB092B /* AppDelegate.swift in Sources */,
+				6C616AF6255BF80000CB092B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C616B02255BF80200CB092B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C616B0B255BF80200CB092B /* AtkaMackerelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C616B0D255BF80200CB092B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C616B16255BF80200CB092B /* AtkaMackerelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C616B08255BF80200CB092B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C616AEF255BF7FF00CB092B /* AtkaMackerel */;
+			targetProxy = 6C616B07255BF80200CB092B /* PBXContainerItemProxy */;
+		};
+		6C616B13255BF80200CB092B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C616AEF255BF7FF00CB092B /* AtkaMackerel */;
+			targetProxy = 6C616B12255BF80200CB092B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C616AF9255BF80000CB092B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C616AFA255BF80000CB092B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C616AFE255BF80100CB092B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C616AFF255BF80100CB092B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C616B18255BF80200CB092B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C616B19255BF80200CB092B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C616B1B255BF80200CB092B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AtkaMackerel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myammm.AtkaMackerel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C616B1C255BF80200CB092B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AtkaMackerel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myammm.AtkaMackerel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C616B1E255BF80200CB092B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AtkaMackerelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myammm.AtkaMackerelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtkaMackerel.app/AtkaMackerel";
+			};
+			name = Debug;
+		};
+		6C616B1F255BF80200CB092B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AtkaMackerelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myammm.AtkaMackerelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtkaMackerel.app/AtkaMackerel";
+			};
+			name = Release;
+		};
+		6C616B21255BF80200CB092B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AtkaMackerelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myammm.AtkaMackerelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AtkaMackerel;
+			};
+			name = Debug;
+		};
+		6C616B22255BF80200CB092B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AtkaMackerelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myammm.AtkaMackerelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AtkaMackerel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C616AEB255BF7FF00CB092B /* Build configuration list for PBXProject "AtkaMackerel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C616B18255BF80200CB092B /* Debug */,
+				6C616B19255BF80200CB092B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C616B1A255BF80200CB092B /* Build configuration list for PBXNativeTarget "AtkaMackerel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C616B1B255BF80200CB092B /* Debug */,
+				6C616B1C255BF80200CB092B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C616B1D255BF80200CB092B /* Build configuration list for PBXNativeTarget "AtkaMackerelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C616B1E255BF80200CB092B /* Debug */,
+				6C616B1F255BF80200CB092B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C616B20255BF80200CB092B /* Build configuration list for PBXNativeTarget "AtkaMackerelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C616B21255BF80200CB092B /* Debug */,
+				6C616B22255BF80200CB092B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C616AE8255BF7FF00CB092B /* Project object */;
+}
